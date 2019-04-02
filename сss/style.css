@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 35px;
+    font-family: Arial;
+}
+.header__vendor{
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 33px;
+    padding-bottom: 35px;
+}
+.header__vendor-value{
+    font-weight: bold;
+    padding-left: 20px;
+}
+.main{
+    border: solid 1px grey;
+}
+.main__name{
+    display: block;
+    font-size: 100px;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+       }
+.main__info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+    padding-bottom: 81px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.slide{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.main__info-img{
+    padding-right: 50px;
+}
+.main__info-description{
+    width: 50%;
+    font-size: 20px;
+}
+.display__name{
+    display: block;
+    font-size: 33px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.memory__name{
+    font-size: 33px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.border{
+    border-bottom: solid 1px grey;
+    font-weight: bold;
+}
+.display{
+    margin-bottom: 50px;
+}
+.main__shortDescription, .main__more{
+    margin-left: 160px;
+    margin-right: 160px;
+    font-size: 20px;
+}
+.main__more{
+    margin-left: 160px;
+    margin-right: 160px;
+    font-size: 20px;
+    margin-top: 29px;
+    margin-bottom: 50px;
+}
+.main__shortDescription-name{
+    margin-bottom: 20px;
+}
+.main__discount{
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.46);
+    height: 300px;
+    width: 300px;
+}
+.main__discount-text{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+.main__discount{
+    position: absolute;
+    top: 180px;
+      margin-left: 5px;
+}
+.footer{
+    font-size: 20px;
+    padding-top: 35px;
+}
