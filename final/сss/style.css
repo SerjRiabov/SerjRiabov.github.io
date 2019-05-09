@@ -1,0 +1,953 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+}
+
+.text__color{
+    color: #00cccc;
+}
+.header{
+    width: auto;
+    height: auto;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+}
+.header__background{
+    background: linear-gradient(90deg, navy, blueviolet);
+    opacity: 0.8;
+}
+.navbar{
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    display: flex;
+}
+.logo__img{
+    /*display: block;*/
+    display: flex;
+    align-items: center;
+}
+.logo__name{
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 30px;
+    padding-left: 5%;
+    color: #00cccc;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: flex-end;
+}
+.menu__item{
+    padding-left: 4px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+.menu__item:hover{
+    color: #00cccc;
+}
+.menu__item-color a{
+    color: #00cccc;
+}
+.menu__item-pre{
+    white-space: pre;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+}
+.burgermenu{
+    display: none;
+    margin-right: 100px;
+}
+.burgermenu__item {
+    padding-left: 0;
+    text-shadow: 2px 2px 2px #000000;
+    list-style: none;
+}
+.burgermenu ul {
+    position: absolute;
+    display: none;
+    margin-bottom: 100px;
+}
+.burgermenu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    background-color: rgba(153, 153, 153, 0.37); /* Цвет фона */
+}
+.burgermenu a:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+.burgermenu:hover ul {
+    display: block;
+}
+.fas{
+    font-size: 40px;
+}
+.text{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.text__title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.text__separator{
+    background-color: #00cccc;
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+}
+.text__main{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    font-family: Arial;
+}
+.button{
+    display: table;
+    padding: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 5%;
+    margin: 0 auto;
+    border: solid 2px #00cccc ;
+}
+.button:hover{
+    color: white;
+    background: #00cccc;
+    font-weight: bold;
+}
+.dotnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dotnav__item{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-left: .3%;
+    margin-right: .3%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: white solid 2px;
+}
+.dotnav__item-color{
+    background-color: #00cccc;
+    border: #00cccc solid 2px;
+}
+/*Блок about*/
+.photo{
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.text__title-align{
+    text-align: left;
+}
+.text__main-color{
+    color: black;
+    text-align: left;
+}
+.button-align{
+    margin: 0;
+
+}
+.buttomWrapper{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.topPanel{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+.bootomPanel{
+    width: auto;
+    height: 448px;
+    background-image: url(../img/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bootomPanel__background{
+    height: 448px;
+    background: linear-gradient(90deg, navy, blueviolet);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.fa-play-circle{
+    font-size: 80px;
+}
+.bootomPanelWrapper__video{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.bootomPanelWrapper__text{
+    font-family: Arial;
+}
+/*Блок expertise*/
+.expertise{
+
+}
+.title{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.title__title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 3%;
+}
+.title__text{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-family: Arial;
+}
+.title__separator{
+    background-color: grey;
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+}
+.card{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.item__img{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 2%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__title{
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 4%;
+    font-family: Arial;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item__text{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-family: Arial;
+}
+.card__center{
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
+
+}
+.borderBottom{
+    border-bottom: solid 1px grey;
+}
+.borderTop{
+    border-top: solid 0px grey;
+}
+.borderTopFirst{
+    border-top: solid 0px grey;
+}
+/*блок team*/
+.team{
+    width: auto;
+    height: auto;
+    background-image: url(../img/team.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+}
+.team__background{
+    background: linear-gradient(90deg, navy, blueviolet);
+    opacity: 0.8;
+    padding-bottom: 5%;
+
+}
+.participantCard{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.participantCard__block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5%;
+}
+.participantCard__block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.participant{
+    border: solid 1px white;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.participant__photo img{
+}
+.participant__name{
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.participant__profession{
+    text-align: center;
+    padding-bottom: 4%;
+}
+/*блок works*/
+.works{
+    padding-bottom: 5%;
+}
+.titleWorks{
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleWorks__title{
+    font-size: 30px;
+    display: block;
+    align-items: center;
+    word-wrap: normal;
+    margin-right: 5%;
+}
+.titleWorks__text{
+    font-size: 25px;
+    font-family: Arial;
+    display: block;
+    align-items: center;
+    margin-left: 5%;
+}
+.photoWorks{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.photoWorks img{
+    width: 220px;
+}
+/*блок testimonials*/
+.testimonials{
+    width: auto;
+    height: auto;
+    background-image: url(../img/testimonials.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+}
+.testimonials__background{
+    background: linear-gradient(90deg, navy, blueviolet);
+    opacity: 0.8;
+}
+.title__name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.title__profession{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.picture__item img{
+    border-radius: 50%;
+}
+.picture__item{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.picture__chevronLeft{
+    padding-right: 2%;
+}
+.picture__chevronRight{
+    padding-left: 2%;
+}
+/*блок contact*/
+.contact{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.contactForm{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.contactTitle{
+display: inline;
+}
+.form{
+    margin-top: 40px;
+}
+.inputDecor{
+    display: block;
+    padding:10px 0 10px 10px;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.name{
+}
+.email{
+
+}
+.subject{
+
+}
+.massage{
+resize: none;
+
+}
+.buttonLeft{
+    margin: 0;
+    background-color: white;
+}
+.clientPanel{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.contactTitle{
+}
+.clientItems{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.clientLeft{
+    margin-right: 4%;
+}
+.clientRight{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.clientLeft__item{
+    margin-top: 40px;
+}
+.clientRight__item{
+    margin-top: 40px;
+}
+/*блок footer*/
+.footer{
+    width: auto;
+    height: auto;
+    background-image: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+}
+.footer__background{
+    background: linear-gradient(90deg, navy, blueviolet);
+    opacity: 0.8;
+    padding: 5%;
+}
+.footerItems{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footerItemsEdit{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 30%;
+}
+.footerItemsLeft{
+
+}
+.footerItemsLeft__logo{
+    padding-bottom: 4%;
+}
+.logoEdit{
+    padding-left: 15px;
+}
+.footerItemsLeft__text p{
+    font-size: 25px;
+    font-family: Arial;
+}
+.footerItemsCenter{
+
+}
+.footerItemsCenter__title{
+    padding-top: 2%;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.footerItemsCenter__info{
+
+}
+.address{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.address__logo{
+    display: flex;
+    align-items: flex-start;
+    width: 160px;
+}
+.address__text{
+    font-size: 25px;
+    font-family: Arial;
+}
+.number{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.number__logo{
+    width: 60px;
+
+}
+.number__text{
+    font-size: 25px;
+    font-family: Arial;
+    align-items: left;
+}
+.footerItemsRight{
+
+}
+.footerItemsRight__title{
+    padding-top: 2%;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.footerItemsRight__letter{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.footerForm{
+
+}
+.footerInput{
+    display: block;
+    padding:10px 0 10px 10px;
+    /*margin-bottom: 25px;*/
+    width: 90%;
+}
+.footerBtn{
+    padding: 10px 0 10px 0px;
+    margin-left: 10px;
+    width: 70px;
+    color:white;
+    background-color: grey;
+    text-align: center;
+}
+.footerItemsRight__social{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 5%;
+}
+.footerWrapper{
+    display: flex;
+}
+.socialEdit{
+    font-size: 25px;
+    border: solid 2px white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+.facebook{
+
+}
+.twitter{
+
+}
+.dribbble{
+
+}
+.instagram{
+
+}
+.gplus{
+
+}
+.youtube{
+
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.footerBoottomItems{
+    display: flex;
+}
+.footerBoottomItems__item{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.footerBoottomItems__item p{
+    padding-right: 15px;
+}
+.footerBottomCopiright{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .footerBottom{
+        display: block;
+        justify-content: center;
+    }
+    .footerBoottomItems{
+        justify-content: center;
+    }
+    .footerBottomCopiright p{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1127px){
+    /*блок team*/
+    .participant__photo img{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .footerItemsLeft__text p{
+        font-size: 20px;
+    }
+    .address__text{
+        font-size: 20px;
+    }
+       .number__text{
+        font-size: 20px;
+    }
+       .footer__background{
+           padding-left: 0;
+           padding-right: 0;
+       }
+}
+@media screen and (max-width: 990px){
+.text__title{
+        font-size: 25px;
+}
+.text__main{
+    font-size: 20px;
+ }
+    /*Блок expertise*/
+    .title__title{
+        font-size: 25px;
+    }
+    .title__text{
+        font-size: 20px;
+    }
+    /*Блок works*/
+    .titleWorks__title{
+        font-size: 25px;
+    }
+    .titleWorks__text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 967px){
+    .footerItemsRight__social{
+        display: block;
+
+    }
+    .footerWrapper{
+        padding-bottom: 3px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 898px) {
+    .menu__item {
+        display: none;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu__item{
+        padding-top: 7px;
+        font-weight: normal;
+    }
+        .burgermenu{
+        display: block;
+    }
+    /*блок team*/
+    .participantCard{
+        display: block;
+    }
+    .participantCard__block1{
+        padding-bottom: 3%;
+    }
+    .participantCard__block2{
+        margin-left: -2%;
+    }
+
+}
+@media screen and (max-width: 822px){
+    .text__title{
+        font-size: 20px;
+    }
+    .text__main{
+        font-size: 15px;
+    }
+    /* Блок about*/
+    .topPanel{
+        display: block;
+    }
+    .text__title-align{
+        display: flex;
+        justify-content: center;
+    }
+    .buttomWrapper{
+        display: flex;
+        justify-content: center;
+    }
+    /*Блок expertise*/
+    .title__title{
+        font-size: 20px;
+    }
+    .title__text{
+        font-size: 15px;
+    }
+    .item__text{
+        font-size: 15px;
+    }
+    /*Блок works*/
+    .titleWorks__title{
+        font-size: 20px;
+    }
+    .titleWorks__text{
+        font-size: 15px;
+    }
+    /*Блок contact*/
+    .contactTitle{
+        font-size: 65%;
+    }
+    .footerItemsLeft__text p{
+        font-size: 15px;
+    }
+    .address__text{
+        font-size: 15px;
+    }
+    .number__text{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 788px){
+.footerItems{
+    display: block;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*margin: 0 auto;*/
+}
+.footerItemsEdit{
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+.footerItemsRight__social{
+    display: flex;
+}
+    .address__logo{
+        width: 65px;
+    }
+}
+@media screen and (max-width: 657px){
+      .text__title{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .text__main{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    /*Блок contact*/
+    .contact{
+        display: block;
+    }
+    .inputDecor{
+        width: 97%;
+    }
+    .contactTitle{
+     text-align: center;
+    }
+    .contactForm{
+        margin-bottom: 4%;
+    }
+    .clientItems{
+        justify-content: center;
+    }
+    .clientLeft{
+        margin-left: 4%;
+    }
+    .buttonLeft{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .card{
+        display: block;
+    }
+    .card__center{
+        border-right: solid 0px grey;
+        border-left: solid 0px grey;
+    }
+    .borderBottom{
+        border-bottom: solid 0px grey;
+    }
+    .borderTop{
+        border-top: solid 2px grey;
+    }
+    /*Блок works*/
+    .titleWorks__title{
+        text-align: center;
+        margin-right: 0%;
+    }
+    .titleWorks__text{
+        text-align: center;
+        margin-left: 0%;
+    }
+    .titleWorks{
+        display: block;
+    }
+    .address__logo{
+        width: 100px;
+    }
+    .footerBoottomItems{
+        display: block;
+    }
+    .footerBoottomItems__item{
+    }
+    .footerBoottomItems__item p{
+        text-align: center;
+        padding-right: 0px;
+        padding-bottom: 2%;
+    }
+}
+@media screen and (max-width: 460px){
+    .participantCard__block1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .participantCard__block2{
+        display: block;
+    }
+    .participant{
+        width: 193px;
+        margin: 0 auto;
+          }
+    .participantBoottom{
+        margin-bottom: 3%;
+    }
+    .picture__item-none{
+        display: none;
+    }
+    .address__logo{
+        width: 135px;
+    }
+}
+@media screen and (max-width: 400px){
+    /*Блок contact*/
+    .clientItems{
+        display: block;
+        justify-content: space-around;
+    }
+    .clientLeft{
+        text-align: center;
+    }
+    .clientRight{
+        text-align: center;
+    }
+    .footerItemsRight__social{
+        display: block;
+    }
+}
+@media screen and (max-width: 360px){
+    .address__logo{
+        width: 155px;
+    }
+    .footerBoottomItems__item{
+        font-size: 28px;
+    }
+}
